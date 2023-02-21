@@ -1,11 +1,8 @@
-# Create CloudFront signed URLs in Laravel 6+
+# Create CloudFront signed URLs in Laravel
 
-Easy to use Laravel 6+ wrapper around the official AWS PHP SDK which allows to sign URLs to access Private Content through CloudFront CDN
+Laravel wrapper around the official AWS PHP SDK which allows to sign URLs to access Private Content through CloudFront CDN
 
-Inspired by [laravel-url-signer](https://github.com/spatie/laravel-url-signer)
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/dreamonkey/laravel-cloudfront-url-signer.svg?style=flat-square)](https://packagist.org/packages/dreamonkey/laravel-cloudfront-url-signer)
-[![Total Downloads](https://img.shields.io/packagist/dt/dreamonkey/laravel-cloudfront-url-signer.svg?style=flat-square)](https://packagist.org/packages/dreamonkey/laravel-cloudfront-url-signer)
+This is a fork of https://github.com/dreamonkey/laravel-cloudfront-url-signer
 
 This package can create canned policies signed URLs for CloudFront which expires after a given time. This is done by wrapping the AWS SDK method adding a Laravel-style configuration and accessibility.
 
