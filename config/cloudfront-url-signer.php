@@ -22,4 +22,8 @@ return [
      */
     'version' => env('CLOUDFRONT_API_VERSION', 'latest'),
 
+    'cloudfront_url' => env('CLOUDFRONT_URL'),
+
+    's3_download_window' => env('S3_DOWNLOAD_WINDOW')
+
 ];
